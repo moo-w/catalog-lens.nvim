@@ -7,11 +7,6 @@ M.ns = vim.api.nvim_create_namespace("catalog-lens")
 local defaults = {
   -- Enable the plugin
   enabled = true,
-  -- Virtual text style
-  virtual_text = {
-    prefix = " ",
-    hl_group = "Comment",
-  },
 }
 
 local config = vim.deepcopy(defaults) --[[@as catalog-lens.Config]]
