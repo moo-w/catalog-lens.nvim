@@ -1,37 +1,37 @@
-*catalog-len.nvim.txt*        Show inlay version for PNPM/Yarn/Bun catalogs
+*catalog-lens.nvim.txt*        Show inlay version for PNPM/Yarn/Bun catalogs
 
 ==============================================================================
-CONTENTS                                          *catalog-len.nvim-contents*
+CONTENTS                                          *catalog-lens.nvim-contents*
 
-1. Introduction ............................ |catalog-len.nvim-introduction|
-2. Requirements ............................ |catalog-len.nvim-requirements|
-3. Installation ............................ |catalog-len.nvim-installation|
-4. Configuration ........................... |catalog-len.nvim-configuration|
-5. Usage ................................... |catalog-len.nvim-usage|
+1. Introduction ............................ |catalog-lens.nvim-introduction|
+2. Requirements ............................ |catalog-lens.nvim-requirements|
+3. Installation ............................ |catalog-lens.nvim-installation|
+4. Configuration ........................... |catalog-lens.nvim-configuration|
+5. Usage ................................... |catalog-lens.nvim-usage|
 
 ==============================================================================
-1. INTRODUCTION                               *catalog-len.nvim-introduction*
+1. INTRODUCTION                               *catalog-lens.nvim-introduction*
 
-catalog-len.nvim is a Neovim plugin that shows inlay version and
+catalog-lens.nvim is a Neovim plugin that shows inlay version and
 go-to-definition for PNPM/Yarn/Bun catalogs.
 
 ==============================================================================
-2. REQUIREMENTS                               *catalog-len.nvim-requirements*
+2. REQUIREMENTS                               *catalog-lens.nvim-requirements*
 
 - Neovim >= 0.10.0
 
 ==============================================================================
-3. INSTALLATION                               *catalog-len.nvim-installation*
+3. INSTALLATION                               *catalog-lens.nvim-installation*
 
 Using lazy.nvim: >lua
     {
-      "Daydreamer-riri/catalog-len.nvim",
+      "Daydreamer-riri/catalog-lens.nvim",
       opts = {},
     }
 <
 
 ==============================================================================
-4. CONFIGURATION                             *catalog-len.nvim-configuration*
+4. CONFIGURATION                             *catalog-lens.nvim-configuration*
 
 Default configuration: >lua
     {
@@ -48,7 +48,7 @@ Default configuration: >lua
 <
 
 ==============================================================================
-5. USAGE                                             *catalog-len.nvim-usage*
+5. USAGE                                             *catalog-lens.nvim-usage*
 
 The plugin will automatically detect package catalogs and show inline
 version information.

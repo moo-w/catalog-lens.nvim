@@ -1,11 +1,11 @@
 ---@module 'luassert'
 
-local CatalogLen = require("catalog-len")
+local CatalogLen = require("catalog-lens")
 
 describe("init module", function()
   it("setup delegates to config", function()
     local called_opts
-    local Config = require("catalog-len.config")
+    local Config = require("catalog-lens.config")
     local original_setup = Config.setup
     Config.setup = function(opts)
       called_opts = opts

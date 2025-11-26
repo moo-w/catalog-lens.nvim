@@ -1,4 +1,4 @@
-# catalog-len.nvim
+# catalog-lens.nvim
 
 Show inlay version and go-to-definition for PNPM/Yarn/Bun catalogs.
 
@@ -18,14 +18,14 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
-  "Daydreamer-riri/catalog-len.nvim",
+  "Daydreamer-riri/catalog-lens.nvim",
   opts = {},
 }
 ```
 
 ## ⚙️ Configuration
 
-**catalog-len.nvim** comes with the following defaults:
+**catalog-lens.nvim** comes with the following defaults:
 
 ```lua
 {
