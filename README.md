@@ -2,6 +2,8 @@
 
 Show inlay version and go-to-definition for PNPM/Yarn/Bun catalogs.
 
+![catalog-lens.nvim demo](./res/preview.png)
+
 ## ✨ Features
 
 - Show inline version information for package catalogs
