@@ -33,6 +33,10 @@ local function color_hint_handler(err, result, ctx, _)
     ---@type string
     local catalog = hint.extraData.catalog
     vim.api.nvim_buf_set_extmark(ctx.bufnr, ns, l, c, {
+      virt_text = { { " ", color_util.ensure_fg_hl(color) } },
+      virt_text_pos = "inline",
+    })
+    vim.api.nvim_buf_set_extmark(ctx.bufnr, ns, l, c, {
       virt_text = { { label, color_util.ensure_hl(color) } },
       virt_text_pos = "inline",
     })
