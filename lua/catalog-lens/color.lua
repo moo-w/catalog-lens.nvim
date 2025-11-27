@@ -36,7 +36,7 @@ local color_cache = {}
 function M.ensure_hl(color)
   if not color_cache[color] then
     local group = "CatalogLensLspHint_" .. color:gsub("#", "")
-    local blended_color = blend_colors(color, get_bg(), 0.2)
+    local blended_color = blend_colors(color, get_bg(), 0.1)
     vim.api.nvim_set_hl(0, group, { fg = color, bg = blended_color })
     color_cache[color] = group
   end
